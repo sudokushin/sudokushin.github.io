@@ -1,109 +1,68 @@
-body{
-  background-color: black;
-  margin: 0;
-  padding: 0;
-}
-.description-texts{
-  color: white;
-  display: inline-block;
-  vertical-align: middle;
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet", href="style.css">
+  </head>
+  <body>
+    <div class="upper-panel" style="height: 65px;">
+      <img src="images/pfp.jpg" alt="my profile picture" style="border-radius: 20px; width: 50px; vertical-align: middle;">
+      <p class="description-texts">main page</p>
+      <p class="description-texts">projects</p>
+      <p class="description-texts">expirience</p>
+      <p class="description-texts">contact</p>
+    </div>
+    <div class="info-table">
+      <h1>SUDOKUSHIN</h1>
+      <small style="text-align:left;">*aka Bilyi Oleksandr</small>
+      <br>
+      <small>I study programming, engineering, robotics, and gam. I am also actively researching the field of AI and neural networks. I am open to working on joint projects, as well as part-time work.</small>
 
-  margin-left: 50px;
-
-  cursor: pointer;
-  font-size: 20px;
-  font-family: monospace;
-
-}
-.upper-panel{
-  background-color: rgb(30, 30, 30);
-  text-align: center;
-}
-
-.projects-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px; 
-  justify-content: center; 
-}
-
-.project-card{
-  width: 275px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  transition-timing-function: ease-in-out;
-  transition: 0.25s;
-}
-
-.preview-class{
-  width: 275px;
-  border-radius: 25px;
-}
-
-.title-row {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  gap: 8px;
-}
+      <div>
+        <h2>EXPIRIENCE WITH:</h2>
+        <img src="images/python.png" style="width: 145px;">
+        <img src="images/html.png" style="width: 145px;">
+        <img src="images/css.png" style="width: 145px;">
+        <img src="images/js.png" style="width: 145px;">
+      </div>
+      <div>
+        <h2>PROJECTS:</h2>
+        <div class="projects-container">
+        <div class="project-card">
+          <img src="images/preview_0.png" class="preview-class">
 
 
+          <div class="title-row">
+            <p class="video-name-text">Snake named Neuron</p>
+            <img src="images/python.png" style="width: 23.2px;">
+          </div>
 
-.info-table {
-  margin: 0 auto;
-  max-width: 600px;
-  text-align: center;
-  
-}
+          <small style="margin-top: auto; text-align: center;">v:1.0.0</small>
 
-.video-name-text{
-  color: white;
-  font-family: monospace;
-  font-size: 20px;
-  margin: 0;
-  font-weight: 100;
+        </div>
+        <div class="project-card">
+          <img src="images/preview_1.jpg" style="width: 275px; border-radius: 25px; padding-bottom: 0;">
+          <p class="video-name-text">STG</p>
+          <small>v:1.0.0</small>
+        </div>
+        <div class="project-card">
+          <img src="images/preview_1.jpg" style="width: 275px; border-radius: 25px; padding-bottom: 0;">
+          <p class="video-name-text">STG</p>
+          <small>v:1.0.0</small>
+        </div>
+      </div>
 
-}
+      </div>
 
+    <div>
+      <h2>EXPIRIENCE</h2>
+      <div style="max-height: 100px;">
+        <img src="images/innomos.png" style="width: 100px; vertical-align:middle; display: inline-block;">
+        <small style="max-width: 400px; text-align: left;">4 weeks of internship as a programmer. Worked with automation, website parsing, and other tasks using Python.</small>
+      </div>
+    </div>
+    
+    </div>
 
-h1{
-  background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-  font-size: 75px;
-  font-family: "Mona Sans", sans-serif;
-  vertical-align: middle;
-  margin-top: 35px;
-  margin-bottom: 0px;
-  font-weight: 100;
-}
-
-h2{
-  display: block;
-  color: white;
-  font-size: 30px;
-  font-family:"Bitcount Grid Double";
-  margin-top: 45px;
-  margin-bottom: 0;
-  line-height: 75px;
-  max-width: 600px;
-  font-weight: 200;
-}
-
-small{
-  display: inline-block;
-  color: rgb(119, 119, 119);
-  font-size: 15px;
-  font-weight: 100;
-  font-family: "Mona Sans", sans-serif;
-  text-align: center;
-  margin-top: 0;
-  vertical-align: middle;
-  max-width: 600px; 
-}
-
-@font-face {
-  font-family: "Bitcount Grid Double";
-  src: url("/fonts/BitcountGridDouble.ttf") format("truetype");
-  font-weight: 100px;
-  font-style: normal;
-}
+    <script src="script.js"></script>
+  </body>
+</html>
