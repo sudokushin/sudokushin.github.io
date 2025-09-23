@@ -37,6 +37,7 @@ body{
 .title-row {
   display: flex;
   align-items: center;
+  text-align: center;
   gap: 8px;
 }
 
