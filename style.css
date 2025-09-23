@@ -20,13 +20,20 @@ body{
   text-align: center;
 }
 
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: center; 
+}
+
 .project-card{
   width: 275px;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 46px;
-  vertical-align: top;
+  transition-timing-function: ease-in-out;
+  transition: 0.25s;
 }
 
 .preview-class{
