@@ -20,6 +20,28 @@ body{
   text-align: center;
 }
 
+.project-card{
+  width: 275px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 46px;
+  vertical-align: top;
+}
+
+.preview-class{
+  width: 275px;
+  border-radius: 25px;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+
 .info-table {
   margin: 0 auto;
   max-width: 600px;
