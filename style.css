@@ -30,10 +30,14 @@ body{
 .video-name-text{
   color: white;
   font-family: monospace;
-  font-size: 25px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
+  max-width: 600px; 
+  font-weight: 100;
   text-align: center;
+  vertical-align: top;
+
 }
 
 
@@ -52,7 +56,7 @@ h2{
   color: white;
   font-size: 30px;
   font-family:"Bitcount Grid Double";
-  margin-top: 75px;
+  margin-top: 45px;
   margin-bottom: 0;
   line-height: 75px;
   max-width: 600px;
@@ -60,13 +64,14 @@ h2{
 }
 
 small{
-  display: block;
+  display: inline-block;
   color: rgb(119, 119, 119);
   font-size: 15px;
   font-weight: 100;
   font-family: "Mona Sans", sans-serif;
   text-align: center;
   margin-top: 0;
+  vertical-align: middle;
   max-width: 600px; 
 }
 
