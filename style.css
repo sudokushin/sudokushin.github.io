@@ -14,8 +14,13 @@ body{
   cursor: pointer;
   font-size: 20px;
   font-family: monospace;
-
+  transition: 0.25s;
 }
+
+.description-texts:hover{
+  text-shadow: white 0 0 10px;
+}
+
 .upper-panel{
   background-color: rgb(30, 30, 30);
   text-align: center;
@@ -30,17 +35,18 @@ body{
 }
 
 .project-card{
-  width: 275px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   transition-timing-function: ease-in-out;
   transition: 0.25s;
+  cursor: pointer;
 }
 
 .preview-class{
-  width: 275px;
-  border-radius: 25px;
+  width: 250px;
+  border-radius: 25px 25px 0 0;
 }
 
 .title-row {
@@ -49,6 +55,8 @@ body{
   text-align: center;
   justify-content: center;
   gap: 8px;
+  background-color: rgb(45, 45, 45);
+  border-radius: 0 0 25px 25px;
 }
 
 .type_1{
@@ -61,7 +69,7 @@ body{
 
 .info-table {
   margin: 0 auto;
-  max-width: 800px;
+  /*max-width: 800px;*/
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -85,6 +93,15 @@ body{
   padding-right: 25px;
 }
 
+p{
+  color: white;
+  vertical-align: middle;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 20px;
+  font-family: monospace;
+}
+
 h1{
   background-image: linear-gradient(90deg, #ff0000 0%, #0b5ff0 100%);
   font-size: 75px;
@@ -93,6 +110,10 @@ h1{
   margin-top: 35px;
   margin-bottom: 0px;
   font-weight: 400;
+}
+
+.info-table h1{
+  margin-top: 15px;
 }
 
 h2{
@@ -122,7 +143,7 @@ small{
 @font-face {
   font-family: "Bitcount Grid Double";
   src: url("/fonts/BitcountGridDouble.ttf") format("truetype");
-  font-weight: 100;
+  font-weight: 200;
   font-style: normal;
 }
 
