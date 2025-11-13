@@ -1,0 +1,25 @@
+{
+    "projects": [
+        {
+        "name": "neuroworm",
+        "picture": "images/neuroworm.png",
+        "version": "",
+        "description": "my first project with AI.",
+        "languages": "python"
+        },
+        {
+        "name": "STG",
+        "picture": "images/stg.png",
+        "version": "v0.0.1",
+        "description": "Unreal Engine game developed by me.",
+        "languages": "python"
+        },
+        {
+        "name": "test",
+        "picture": "images/neuroworm.png",
+        "version": 0,
+        "description": "just test label",
+        "languages": "python"
+        }
+]
+}

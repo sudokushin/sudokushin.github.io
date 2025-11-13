@@ -38,15 +38,17 @@ body{
   flex-wrap: wrap;
   gap: 20px; 
   justify-content: center; 
+  max-width: 800px;
 }
 
 .project-card{
   width: 250px;
-  display: flex;
+  height: 164.5px;
+  display:flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:0;
   transition-timing-function: ease-in-out;
-  transition: 0.25s;
+  transition: 0.5s;
   cursor: pointer;
   border-radius: 25px;
 }
